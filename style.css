@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background: url(Background3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    color: white;
+}
+
+hr{
+    color:rgb(252, 33, 117);
+    border-width: 4px;
+    width: 15%;
+    margin: auto;
+}
+
+.buffer{
+    height: 2rem;
+}
+.btn{
+    font-family:'Open Sans';
+    font-weight: 650;
+    border-radius: 300px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.btn-primary{
+    background-color: rgb(255, 150, 167);
+    border-color: rgb(255, 150, 167);
+}
+
+.btn-primary:hover{
+    background-color: rgb(255, 114, 168);
+    border-color: rgb(255, 114, 168);
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 3rem;
+}
